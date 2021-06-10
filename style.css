@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgba(30, 0, 200, 0.5);
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+nav a:not(#call) {
+    color: coral;
+    /* margin-bottom: 50px; */
+    line-height: 50px;
+    padding: 0 20px;
+}
+
+a {
+    display: inline-block;
+}
+
+.main {
+    /* background: url("park.jpg"); */
+    overflow: hidden;
+    font-size: 0;
+    z-index: 2;
+}
+
+.main a,
+.main button {
+    font-size: 16px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: rosybrown;
+}
+
+.texterContainer {
+    margin-bottom: 40px;
+    background: url("park.jpg");
+}
+
+.text {
+    display: inline-block;
+    width: 100%;
+}
+
+ul {
+    padding-left: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+ul li a:not(.boat) {
+    padding: 0 20px;
+    position: relative;
+    z-index: 3;
+    line-height: 70px;
+    /* background-color: rgba(30,0,200,1); */
+}
+
+.texter {
+    white-space: nowrap;
+    transition: .3s;
+}
+
+button {
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+    width: 50px;
+}
+
+#call {
+    color: lightsalmon;
+    vertical-align: center;
+    line-height: 50px;
+    margin: 10px;
+    margin-top: 0;
+}
+
+p {
+    color: coral;
+}
+
+#about h3 {
+    display: block;
+    padding-left: 700px;
+}
+
+#info {
+    float: right;
+}
+
+#info p {
+    width: 600px;
+}
+
+form {
+    height: 350px;
+    width: 250px;
+    border: 10px black double;
+    margin: auto;
+}
+
+nav {
+    position: absolute;
+    transform: translateY(-150%);
+    transition: .3s;
+}
+
+.our li:hover nav {
+    transform: translateY(0)
+}
+
+.call {
+    height: 70px;
+    /* margin-left: 200px; */
+    float: right;
+}
+
+input {
+    margin: 5px;
+}
+
+textarea {
+    margin: 5px;
+}
+
+#product {
+    text-align: center;
+}
+
+#math a {
+    display: inline-block;
+    border: 5px black solid;
+    background-color: darkgrey;
+    margin: 0 15px 15px;
+    width: 30%;
+}
+
+.delectus {
+    height: 70px;
+}
+
+.boat {
+    display: block
+}
+
+li {
+    display: inline-block;
+    /* margin: 0px 50px; */
+}
+
+#right,
+#left {
+    width: 50px;
+    background-color: chartreuse;
+    line-height: 15px;
+    z-index: 2;
+}
+
+.cursor a:first-child img {
+    transform: rotate(180deg);
+}
+
+.cursor {
+    text-align: center;
+}
+
+.ocean {
+    width: 100px;
+    height: 50px;
+}
+
+.water {
+    width: 30px;
+}
+
+.phoneSection {
+    float: right;
+    height: 79px;
+    overflow: hidden;
+}
+
+li>a {
+    color: chocolate;
+}
+
+.phoneSection>button {
+    line-height: 50px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.phoneSection a {
+    overflow: hidden;
+}
+
+container {
+    display: inline-block;
+}
+
+container>p {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#one img:not(.water) {
+    height: 300px;
+    width: 200px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+#two img:not(.water) {
+    height: 300px;
+    width: 200px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+#three img:not(.water) {
+    height: 300px;
+    width: 200px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+#four img:not(.water) {
+    height: 300px;
+    width: 200px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+#five img:not(.water) {
+    height: 300px;
+    width: 200px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+#six img:not(.water) {
+    height: 300px;
+    width: 200px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+.fedback img {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+
+.pair {
+    opacity: 0;
+    position: absolute;
+    transition: 500ms;
+}
+
+.activePair {
+    opacity: 1;
+}
+
+.fedback {
+    width: 40%;
+    display: inline-block;
+    border: 5px solid black;
+    background-color: burlywood;
+    margin: 10px;
+}
+
+#CommentRight {
+    opacity: 1;
+    height: 50px;
+    width: 50px;
+    background-color: chartreuse;
+}
+
+#CommentLeft {
+    opacity: 1;
+    height: 50px;
+    width: 50px;
+    background-color: chartreuse;
+}
+
+#fedbacks .cursor {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#fedbacks {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+#fedbacks h1 {
+    margin-left: 185px;
+}
+
+#important {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff77;
+    z-index: 9;
+    transform: translateY(100%);
+    transition: .3s;
+    backdrop-filter: blur(10px);
+}
+
+#important #super {
+    z-index: 10;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    background-color: blue;
+}
+
+.main p {
+    font-size: 15px;
+}
+
+.main h2 {
+    font-size: 30px;
+}
+
+.main h3 {
+    font-size: 20px;
+}
+
+.main h4 {
+    font-size: 15px;
+}
+
+.phoneSection #calls {
+    padding-bottom: 28px;
+}
+
+.phoneSection img {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.copy a img {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.copy {
+    float: right;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.copy a {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#social {
+    margin-top: 20px;
+}
+
+.comment {
+    /* width: calc(50% - 20px); */
+    width: 50%;
+}
+
+main {
+    width: 100%;
+    overflow: hidden;
+}
+
+.A {
+    float: left;
+}
+
+.B {
+    float: right;
+    text-align: right;
+}
+
+.comment>.fedback {
+    width: calc(100% - 20px);
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    margin: 0 0 40px;
+    text-align: left;
+}
+
+.comment h4 {
+    display: inline-block;
+    line-height: 25px;
+    vertical-align: top;
+}
+
+@media(max-width:700px) {
+    .phoneSection {
+        display: none;
+    }
+    .main .our {
+        position: fixed;
+        z-index: 30;
+        left: 0;
+        margin-left: 0;
+        height: 100%;
+        width: 100%;
+        backdrop-filter: blur(6px);
+        background-color: #00000088;
+        padding: 0;
+        transition: 1s;
+        transform: translateX(-100%);
+    }
+    .main nav {
+        position: static;
+        transform: translateY(0);
+    }
+    .main ul li:not(.boat) {
+        display: block;
+        text-align: center;
+    }
+    #social .our {
+        display: none;
+        transition: 1s;
+        margin-top: 74px;
+        z-index: 40;
+    }
+    .logo {
+        z-index: 31;
+        display: block;
+        text-align: center;
+        background-color: indigo;
+        position: fixed;
+        width: 100%;
+    }
+    #check {
+        z-index: 3;
+        position: absolute;
+        left: 0;
+        top: 0px;
+    }
+    label {
+        width: 75px;
+        height: 75px;
+        background-color: indigo;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 32;
+        position: fixed;
+    }
+    label span {
+        width: 70%;
+        height: 1px;
+        background-color: white;
+        border: white solid 1px;
+        position: absolute;
+        z-index: 33;
+        left: 15%;
+        top: 50%;
+        transition: 1s;
+    }
+    label span::after {
+        content: "";
+        width: 100%;
+        height: 1px;
+        background-color: white;
+        border: white solid 1px;
+        position: absolute;
+        z-index: 33;
+        top: 10px;
+        transition: 1s;
+    }
+    label span::before {
+        content: "";
+        width: 100%;
+        height: 1px;
+        background-color: white;
+        border: white solid 1px;
+        position: absolute;
+        z-index: 33;
+        bottom: 10px;
+        transition: 1s;
+    }
+    #check:checked~.our {
+        transform: translateX(0);
+    }
+    #check:checked~label span {
+        transform: rotate(45deg);
+    }
+    #check:checked~label span::before {
+        transform: rotate(90deg);
+        bottom: 0;
+    }
+    #check:checked~label span::after {
+        transform: rotate(90deg);
+        top: 0;
+    }
+    #info p {
+        width: 300px;
+    }
+    .our li {
+        margin-top: 50px;
+    }
+    .text p {
+        white-space: normal;
+    }
+    .text h2 {
+        white-space: normal;
+    }
+    #math a {
+        display: inline-block;
+        width: 90%;
+    }
+    #CommentLeft img {
+        width: 50px;
+        height: 50px;
+    }
+    #CommentRight img {
+        width: 50px;
+        height: 50px;
+    }
+    #CommentLeft {
+        width: 50px;
+        height: 50px;
+    }
+    #CommentRight {
+        width: 50px;
+        height: 50px;
+    }
+    #fedbacks {
+        height: 400px;
+    }
+    .comment>.fedback {
+        width: 100%;
+    }
+    .A {
+        width: 90%;
+    }
+    .B {
+        width: 90%;
+        float: left;
+    }
+}

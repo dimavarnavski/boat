@@ -1,0 +1,106 @@
+#collector {
+    width: 40%;
+    display: grid;
+    grid-template-areas: "boat1 boat2" "boat3 boat3" "boat4 boat5" "boat4 boat5";
+    float: left;
+}
+
+#collector img {
+    display: inline-block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#collector img:nth-child(1) {
+    grid-area: boat1;
+}
+
+#collector img:nth-child(2) {
+    grid-area: boat2;
+}
+
+#collector img:nth-child(3) {
+    grid-area: boat3;
+}
+
+#collector img:nth-child(4) {
+    grid-area: boat4;
+    height: 500px;
+}
+
+#collector img:nth-child(5) {
+    grid-area: boat5;
+    height: 500px;
+}
+
+main {
+    padding-top: 50px;
+    /* text-align: center; */
+}
+
+main h1 {
+    margin: 50px 0;
+    display: inline-block;
+    display: block;
+    text-align: center;
+}
+
+#win img {
+    width: 25px;
+    height: 50px;
+}
+
+#win {
+    width: calc(60% - 10px);
+    float: right;
+    text-align: left;
+}
+
+container {
+    display: block;
+}
+
+#win a {
+    display: block;
+    text-align: center;
+}
+
+#win p {
+    display: inline-block;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+#win img {
+    display: inline-block;
+    /* background-color: coral; */
+}
+
+container p {
+    line-height: 50px;
+    vertical-align: top;
+}
+
+@media(max-width:700px) {
+    .write {
+        width: 100% !important;
+    }
+    iframe {
+        width: 100% !important;
+    }
+    .teamMB {
+        width: 100% !important;
+    }
+    #teamBoat {
+        margin-left: 50px !important;
+    }
+    #collector {
+        width: 100%;
+    }
+    #win {
+        width: 100%;
+    }
+}

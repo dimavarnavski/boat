@@ -1,0 +1,109 @@
+.write {
+    display: inline-block;
+    background-color: white;
+    min-height: 400px;
+    vertical-align: top;
+    width: 40%;
+}
+
+iframe {
+    width: 40%;
+}
+
+.mains {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+
+.about {
+    text-align: center;
+    background-color: #eee;
+}
+
+.write p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.write img {
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.teamMB img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    vertical-align: middle;
+}
+
+.userPhone>img {
+    width: 25px;
+    height: 25px;
+    border-radius: 0;
+}
+
+.userEmail>img {
+    width: 25px;
+    height: 25px;
+    border-radius: 0;
+}
+
+.userEmail {
+    display: inline-block;
+    /* margin-left: 10%; */
+    margin-bottom: 10px;
+    /* background-color: coral; */
+}
+
+.userPhone {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.userInfo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.userEmail p {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.userPhone p {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.userInfo p {
+    display: inline-block;
+}
+
+.teamMB {
+    width: 20%;
+    margin-right: 12%;
+    display: inline-block;
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+
+#teamBoat {
+    margin-left: 100px;
+}
+
+.teamMB h4 {
+    width: 250px;
+}
+
+h1 {
+    margin: 30px 0;
+}
